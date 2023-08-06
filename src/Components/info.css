@@ -1,0 +1,62 @@
+.progress-container {
+    position: relative;
+    width: 100px;
+   
+  }
+  .progress-container2{
+    position: relative;
+    width: 150px;
+  }
+  .progress-circle {
+    transform: rotate(-90deg);
+  }
+  
+  .bg-circle {
+    fill: none;
+    stroke: lightgray;
+    stroke-width: 6;
+  }
+  
+  .progress,.progress2,.progress3 {
+    fill: none;
+    stroke: #3DCA15; /* Use the color of your choice */
+    stroke-width: 6;
+    stroke-dasharray: 0 283;
+    transition: stroke-dasharray 0.3s ease;
+  }
+  .progress2{
+    stroke: #CC0000;
+  }
+  .progress3{
+    stroke: #007FFF;
+  }
+  .progress-text {
+    position: relative;
+    top: 80%;
+    right:25%;
+    
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: bold;
+  }
+ #progressText3{
+    position:absolute;
+    top: 50%;
+    left:50%;
+  
+    
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: bold;
+ }
+  .newuser{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border-bottom:3px solid blue; */
+  }
+  .expense{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border-bottom:3px solid blue; */
+  }
+  .singleinfo{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }

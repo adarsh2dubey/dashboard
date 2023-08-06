@@ -1,0 +1,27 @@
+.rightbar{
+  width:4%;
+  max-width:15%;
+  border-left:0.2px solid black;
+ border-top-left-radius: 5px; 
+
+    height:100vh;
+    flex-grow: 3;
+  /* border: 1px solid red; */
+}
+.main{
+  width:97%;
+  flex-grow: 1;
+  /* border: 1px solid red; */
+  resize: horizontal;
+  overflow: auto;
+}
+.navbar{
+  
+  border-top-right-radius: 15px;
+  
+}
+
+
+#display1,#display2,#display3,#display4,#display5,#display6,#display7,#display8{
+display:none;
+}
